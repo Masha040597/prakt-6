@@ -1,0 +1,28 @@
+<title>Данные об абитуриенте</title>
+<form action="action_form.php">
+<fieldset>
+  <legend>Данные об абитуриенте</legend>
+  <label>Фамилия:<br/><input type="text" name="Фамилия"/></lable></br>
+  <label>Имя:<br/><input type="text" name="Имя"/></lable></br>
+  <label>Отчество:<br/><input type="text" name="Отчество"/></lable></br> <label>Фамилия:<br/><input type="text" name="Фамилия"/></lable></br>
+  <label>Город:<br/><input type="text" name="Город"/></lable></br>
+  <label>Телефон:<br/><input type="number" name="Телефон"/></lable></br>
+  <label>Email:<br/><input type="text" name="Email"/></lable></br>
+  <button type="reset" value="Очистить">Очистить</button>
+ </lable>
+ </fieldset>
+ </from>
+ 
+ <p>Сданные экзаменты</p>
+ <select name="Сданные экзамены">
+    <option value="математика">математика</option>
+	<option value="русский язык">русский язык</option>
+	<option value="физика">физика</option>
+	<option value="информатика">информатика</option>
+</select>
+
+<p>Баллы ЕГЭ</p>
+<input type="number" name="баллы ЕГЭ" size="15" maxlength="3"/>
+
+<p>Готовность учиться на вступительных экзаменах</p>
+<textarea name="comments" cols="20" rows="4">Опишите в нескольких словах</textarea>
